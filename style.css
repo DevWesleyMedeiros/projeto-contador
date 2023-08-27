@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+html, body {
+    height: 100%;
+    background-color: #521D0E;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50vh;
+    height: fit-content;
+    border: 2px solid black;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    background-color: #4d2f26;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+button {
+    margin: 5px;
+    padding: 10px;
+}
+span {
+    font-size: 15rem;
+}
